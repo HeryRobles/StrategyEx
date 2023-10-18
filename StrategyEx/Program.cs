@@ -1,4 +1,12 @@
-﻿using StrategyEx;
+﻿/*En este código, estamos calculando el costo de envío de productos 
+ * utilizando diferentes estrategias de envío.
+ * 
+ * El patrón de diseño Strategy es como tener diferentes estrategias para
+ * una misma tarea 
+ */
+
+
+using StrategyEx;
 
 var productoTerrestre = new Producto(new EnvioTerrestre());
 productoTerrestre.Nombre = "Producto Terrestre";
